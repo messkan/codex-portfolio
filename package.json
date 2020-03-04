@@ -9,7 +9,7 @@
   },
   "author": "Skander Ben Khelil",
   "license": "MIT",
-  "homepage": "codexJe.github.io/codex-portfolio",
+  "homepage": "https://codexJe.github.io/codex-portfolio",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "node-sass": "^4.9.2"
