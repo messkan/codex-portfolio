@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./css/modal-video.css">
+  <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="./js/modal-video.js"></script>
+
+  <link rel="stylesheet" href="css/main.css">
+  <title>Nos projets</title>
+</head>
+
+<body>
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <div class="topnav" id="myTopnav">
+      <a href="contact.html">Contactez nous</a>
+      <a href="work.html" class="active">Nos Projets</a>
+      <a href="about.html">A Propos</a>
+      <a href="index.html">Accueil</a>
+        <a class="portrait">
+          <img src="./img/ic (1).png">
+        </div>
+    </div>
+    
+
+    <nav class="menu mobile">
+      <div class="menu-branding">
+        <div class="portrait">
+          <img src="./img/portrait.png">
+        </div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item current">
+          <a href="index.html" class="nav-link">
+            Accueil
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">
+            A Propos
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="work.html" class="nav-link">
+            Nos Projets
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">
+            Contactez Nous
+          </a>
+        </li>
+
+      </ul>
+    </nav>
+  </header>
+
+
+  <main id="home">
+    <h1 class="lg-heading">
+      Nos
+      <span class="text-secondary">projets</span>
+    </h1>
+    <h2 class="sm-heading">
+
+    </h2>
+    <div class="projects">
+      <div class="item">
+        <a href="#!" class="js-modal-btn" data-video-id="-vFi7QkkE3k">
+          <img src="img/projects/barbecha.png" style="background-color: white;" alt="Project">
+        </a>
+        <button data class="btn-light js-modal-btn" style="width: 100%;" data-video-id="-vFi7QkkE3k">
+          <i class="fas fa-eye"></i> Demo
+        </button>
+
+      </div>
+
+      <div class="description">
+        <h1 style="margin-top: 0 !important;">Barbecha</h1>
+        <strong>Site Web</strong> <br>
+        Barbecha est une boutique respectueuse de l'environnement qui met en relaton les personnes et les éco-designers en proposant une variété de produits textiles ( vêtements, accessoires...) sur une plateforme en ligne.
+      </div>
+      <div class="item">
+        <a href="#!" class="js-modal-btn" data-video-id="eikVHTDeDGA">
+          <img src="img/projects/photographe.jpg" style="object-fit: contain;" alt="Project">
+        </a>
+        <button data class="btn-light js-modal-btn" data-video-id="eikVHTDeDGA">
+          <i class="fas fa-eye"></i> Demo
+        </button>
+
+      </div>
+      <div class="description">
+        <h1 style="margin-top: 0 !important;">Mon photographe</h1>
+        La société Light Box souhaite de développer un annuaire web destiné aux photographes qui, en créant un compte
+        peuvent proposer leurs services et publier des photos qui reflèéte leur savoir-faire et leurs réalisations.Les
+        visiteurs peuvent consulter les services proposées et contacter les photographes.
+      </div>
+
+      <div class="item">
+        <a href="#!" class="js-modal-btn" data-video-id="sPGnwx-zgSU">
+          <img src="img/projects/vipmotard.png"  style="object-fit: contain;" alt="Project">
+        </a>
+        <button data class="btn-light js-modal-btn" data-video-id="sPGnwx-zgSU">
+          <i class="fas fa-eye"></i> Demo
+        </button>
+
+      </div>
+      <div class="description">
+        <h1 style="margin-top: 0 !important;">VIP motards</h1>
+        <strong>Site Web</strong>
+        <br>
+        La création du site web s'intègre dans le besoin d'assurer une meilleure visibilité sur VIP MOTARDS.Ces derniers cherchent  acquérir un espace pour présenter l'équipe, publier les photos des différents sorties et événement réalisés et d'avoir une vitrine pour les produits à vendre.
+         </div>
+
+      <div class="item">
+        <a href="#!" class="js-modal-btn" data-video-id="YoSXjPfREz8">
+          <img src="img/projects/isi.png"  style="object-fit: contain;" alt="Project">
+        </a>
+        <button data class="btn-light js-modal-btn" data-video-id="YoSXjPfREz8">
+          <i class="fas fa-eye"></i> Demo
+        </button>
+
+      </div>
+      <div class="description">
+        <h1 style="margin-top: 0 !important;">ISI Ariana</h1>
+        <strong>Application Web</strong><br>
+        Ce projet porte sur la création d'une application web pour la gestion des convocations de surveillance des examens.Son développement s'inscript dans le but d'automatiser la tâche de gestion de surveillance des examens de l'ISI
+      </div>
+
+    </div>
+  </main>
+
+  <footer id="main-footer">
+    Copyright &copy; 2020
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    $(".js-modal-btn").modalVideo({ channel: 'youtube' });
+  </script>
+</body>
+
+</html>
